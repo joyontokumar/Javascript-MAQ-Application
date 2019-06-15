@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>javascript quize application</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container p-5 mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="section-area">
+                    <h1 class="mb-5">Ready to start online quize</h1>
+                    <form id="quiz" name="quiz" class="mt-3">
+
+                        <div class="form-group">
+                            <h6 class="title-question">What is the capital of Bangladesh?</h6>
+                            <input type="radio" id="myquize" name="question1" value="rangpur"> rangpur<br>
+                            <input type="radio" id="myquize" name="question1" value="dhaka"> dhaka<br>
+                        </div>
+
+                        <div class="form-group">
+                            <h6 class="title-question">Bangladesh total zilla?</h6>
+
+                            <input type="radio" id="myquize" name="question2" value="64">64<br>
+                            <input type="radio" id="myquize" name="question2" value="65"> 65<br>
+                        </div>
+
+                        <div class="form-group">
+                            <h6 class="title-question">what is the capital of india?</h6>
+
+                            <input type="radio" id="myquize" name="question3" value="mumbai"> Mumbai<br>
+                            <input type="radio" id="myquize" name="question3" value="new delhi"> New Delhi<br>
+                        </div>
+
+                        <div class="form-group">
+                            <input id="button" class="btn btn-primary btn-sm" type="button" value="Get Score"
+                                onclick="quizeFunction();">
+                        </div>
+
+                    </form>
+                    <div id="after_submit">
+                        <p id="correct-answer"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
